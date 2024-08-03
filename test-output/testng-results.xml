@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-27T19:22:52 EDT" name="Default suite" finished-at="2024-06-27T19:22:52 EDT" duration-ms="157">
+    <groups>
+    </groups>
+    <test started-at="2024-06-27T19:22:52 EDT" name="Default test" finished-at="2024-06-27T19:22:52 EDT" duration-ms="157">
+      <class name="learnTestNG.TestNGAnnotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeSuite" finished-at="2024-06-27T19:22:52 EDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeTest" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeclass" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNGAnnotations()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations" finished-at="2024-06-27T19:22:52 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGAnnotations -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNGAnnotations1()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations1" finished-at="2024-06-27T19:22:52 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGAnnotations1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNGAnnotations3()[pri:2, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations3" finished-at="2024-06-27T19:22:52 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGAnnotations3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNGAnnotations2()[pri:3, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations2" finished-at="2024-06-27T19:22:52 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGAnnotations2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterClass" finished-at="2024-06-27T19:22:52 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterTest" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:53 EDT" name="afterSuite" finished-at="2024-06-27T19:22:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- learnTestNG.TestNGAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
