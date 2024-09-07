@@ -1,85 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T19:22:52 EDT" name="Default suite" finished-at="2024-06-27T19:22:52 EDT" duration-ms="157">
+  <suite started-at="2024-08-29T22:21:59 EDT" name="Default suite" finished-at="2024-08-29T22:22:42 EDT" duration-ms="43367">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.TestRunner@5f049ea1]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-06-27T19:22:52 EDT" name="Default test" finished-at="2024-06-27T19:22:52 EDT" duration-ms="157">
-      <class name="learnTestNG.TestNGAnnotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeSuite" finished-at="2024-06-27T19:22:52 EDT" duration-ms="23" status="PASS">
+    <test started-at="2024-08-29T22:21:59 EDT" name="Default test" finished-at="2024-08-29T22:22:42 EDT" duration-ms="43367">
+      <class name="steps.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:steps.TestRunner@5f049ea1]" started-at="2024-08-29T22:21:59 EDT" name="setUpClass" finished-at="2024-08-29T22:21:59 EDT" duration-ms="391" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeTest" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.TestRunner@5f049ea1]" started-at="2024-08-29T22:21:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T22:22:19 EDT" duration-ms="19345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001_login_and_logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate Testleaf Application"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeclass" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.TestRunner@5f049ea1]" started-at="2024-08-29T22:22:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T22:22:33 EDT" duration-ms="13981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001_login_and_logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate Testleaf Application"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.TestRunner@5f049ea1]" started-at="2024-08-29T22:22:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T22:22:42 EDT" duration-ms="9319" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002_Login and Logout for failure"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate Testleaf Application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runner.AmbiguousStepDefinitionsException">
+            <message>
+              <![CDATA["enter username as ssssss" matches more than one step definition:
+  "enter username as (.*)" in StepsDefination.enter_username_as_demo_sales_manager(String)
+  "enter username as ssssss" in StepsDefination.enter_username_as_ssssss()
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runner.AmbiguousStepDefinitionsException: "enter username as ssssss" matches more than one step definition:
+  "enter username as (.*)" in StepsDefination.enter_username_as_demo_sales_manager(String)
+  "enter username as ssssss" in StepsDefination.enter_username_as_ssssss()
+
+at cucumber.runner.Glue.stepDefinitionMatch(Glue.java:92)
+at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:73)
+at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:63)
+at cucumber.runner.Runner.runPickle(Runner.java:48)
+at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:57)
+at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runner.AmbiguousStepDefinitionsException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testNGAnnotations()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations" finished-at="2024-06-27T19:22:52 EDT" duration-ms="25" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:steps.TestRunner@5f049ea1]" started-at="2024-08-29T22:22:42 EDT" name="tearDownClass" finished-at="2024-08-29T22:22:42 EDT" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNGAnnotations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testNGAnnotations1()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations1" finished-at="2024-06-27T19:22:52 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNGAnnotations1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testNGAnnotations3()[pri:2, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations3" finished-at="2024-06-27T19:22:52 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNGAnnotations3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="beforeMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testNGAnnotations2()[pri:3, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="testNGAnnotations2" finished-at="2024-06-27T19:22:52 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNGAnnotations2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterMethod" finished-at="2024-06-27T19:22:52 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterClass" finished-at="2024-06-27T19:22:52 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:52 EDT" name="afterTest" finished-at="2024-06-27T19:22:52 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:learnTestNG.TestNGAnnotations@663c9e7a]" started-at="2024-06-27T19:22:53 EDT" name="afterSuite" finished-at="2024-06-27T19:22:53 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- learnTestNG.TestNGAnnotations -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- steps.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

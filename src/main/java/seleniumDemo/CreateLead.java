@@ -19,6 +19,7 @@ public class CreateLead {
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		//driver.findElementById("username").sendKeys("DemoSalesManager");
 		driver.findElementById("username").sendKeys("DemoCSR");
+		
 		driver.findElementById("password").sendKeys("crmsfa");
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.findElementByLinkText("CRM/SFA").click();
